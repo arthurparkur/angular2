@@ -1,0 +1,33 @@
+<div class="container">
+    <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a>Profile</a></li>
+                        <li><a class="linkPointer" (click)="toOrders()">Orders</a></li>
+                        <li id="logout" style="float: right" class="linkPointer" (click)="logout()"><a>Logout</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+        </nav>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-2">
+                    Name:
+                </div>
+                <div class="col-md-10">{{name}}</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    Email:
+                </div>
+                <div class="col-md-10">{{email}}</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <button class="btn btn-lg btn-primary btn-block" (click)="toEditProfile()">Edit</button>
+                </div>
+                <div class="col-md-8"></div>
+            </div>
+        </div>
+</div>
