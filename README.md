@@ -33,7 +33,7 @@ name - имя пользователя
                 "error": ErrorMessageString
             }
         
-Тестовые учетки:
+Тестовые учетки:  
 Логин: test@mail.test
 
 Пароль: nNkZT.wNmrx16
