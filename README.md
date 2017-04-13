@@ -6,19 +6,19 @@
 просмотреть список заказов
 Прежде чем обращаться на API получения/изменения профиля и получение списка заказов необходимо авторизоваться
 
-API:
+API:  
 /api/user/login  
-POST-параметры:
-email - емейл пользователя
-password - пароль
+POST-параметры:  
+email - емейл пользователя  
+password - пароль  
 
-/api/user/logout
-/api/user/profile
-/api/user/profile/edit
-POST-параметры:
-name - имя пользователя
+/api/user/logout  
+/api/user/profile  
+/api/user/profile/edit  
+POST-параметры:  
+name - имя пользователя  
 
-/api/orders
+/api/orders  
 Формат успешного ответа API:
 
             {
